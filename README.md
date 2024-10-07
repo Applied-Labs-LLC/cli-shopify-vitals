@@ -19,10 +19,5 @@ Then place the key as an environment variable as seen in the `.env.sample` by cr
 
 - `npm start`
 - Input a product URL from Shopify store
-- Review JSON file saved to desktop
-
-## API Key
-
-The API will work without an API key, but it is recommended and required by this application. To get the API Key needed, go to the following link:
-
-https://developers.google.com/speed/docs/insights/v5/get-started#APIKey
+- Fill out prompts as needed necessary
+- Review JSON file saved to your desktop
