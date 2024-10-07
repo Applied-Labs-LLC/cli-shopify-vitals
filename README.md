@@ -21,3 +21,7 @@ Then place the key as an environment variable as seen in the `.env.sample` by cr
 - Input a product URL from Shopify store
 - Fill out prompts as needed necessary
 - Review JSON file saved to your desktop
+
+## Future: Automation
+
+To make this more automation focused, the contents of `index.mjs` could be restructured to not require the use of `@clack/prompts` within another script file. The inputs required by the prompts could be written as a `process.argv` variables picked up in Node. This would enable the ability to write pipelines (eg. GitHub Actions) or include within loops of other scripts.
