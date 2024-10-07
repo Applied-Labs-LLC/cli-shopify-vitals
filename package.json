@@ -1,0 +1,20 @@
+{
+  "name": "cwv-report-node",
+  "version": "1.0.0",
+  "description": "Fetch Core Web Vitals Report",
+  "author": "Darcy Voutt",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "devDependencies": {
+    "@clack/prompts": "^0.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "jsdom": "^25.0.1",
+    "json2csv": "^6.0.0-alpha.2"
+  }
+}
